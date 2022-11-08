@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    /* background: linear-gradient(rgba(245, 245, 220, 0.623), rgba(238, 89, 89, 0.616)), url(../img/paisaje2.jpg); */
+    background: url(../img/paisaje2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta{
+    background-color: rgba(255,255,255,0.1);
+    height: 350px;
+    width: 250px;
+    box-shadow: 5px 5px 36px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    opacity: 0.4;
+    margin-top: -80px;
+}
+
+.Evento1{
+    color: yellow;
+}
+
+.Evento1:hover{
+    color: aquamarine;
+    font-size: 3em;
+}
+
+img:hover{
+    width: 200%;
+}
+
+.tarjeta:hover{
+    width: 500px;
+}
+
+.Evento2:hover{
+    text-decoration: underline;
+}
