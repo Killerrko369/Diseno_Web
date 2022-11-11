@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor2{
+    width: 80%;
+    height: 40vh;
+    /* pone el margin y el padding automaticamente (reparte lo que sobre) */
+    margin: auto;
+    padding: auto;
+    background: url(../img/paisaje3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    background-color: aqua;
+}
